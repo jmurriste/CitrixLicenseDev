@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="jumbotron">
+  <h1>Citrix Devices</h1>
+</div>
+
+  <div class="jumbotron">
+
+
+  <form method="POST">
+      {# This hidden_tag is a CSRF security feature. #}
+      {{ form.reportes.label }}   {{ form.reportes }}   {{ form.submit() }}
+             <div class="jumbotron">
+                    <table id="table" border="1" style="width:50%">
+                    <tr>
+                      <th>Name</th>
+                      <th>License State</th>
+                      <th>Model</th>
+                      <th>Serial</th>
+                      <th>Product</th>
+                      <th>License Type</th>
+                      <th>Host ID</th>
+                      <th>License Expiration</th>
+                      <th>Max BW</th>
+                      <th>Model SKU</th>
+                      <th>Appliance State</th>
+                      <th>System</th>
+                      <th>Detail</th>
+                      <th>Country</th>
+                      <th>POP</th>
+                      <th>SID</th>
+                      <th>BW Report</th>
+
+                    </tr>
+                      {% for i in range(0, values):  %}
+                        <tr>
+                        <td>{{newcursor[i]['name']}}</td>
+                        <td>{{newcursor[i]['license_state']}}</td>
+                        <td>{{newcursor[i]['model']}}</td>
+                        <td>{{newcursor[i]['serial_no']}}</td>
+                        <td>{{newcursor[i]['product']}}</td>
+                        <td>{{newcursor[i]['license_type']}}</td>
+                        <td>{{newcursor[i]['local_license_server_hostid']}}</td>
+                        <td>{{newcursor[i]['license_expiry']}}</td>
+                        <td>{{newcursor[i]['max_bw']}}</td>
+                        <td>{{newcursor[i]['state']}}</td>
+                        <td>{{newcursor[i]['system_patform']}}</td>
+                        <td>{{newcursor[i]['description']}}</td>
+                        <td>{{newcursor[i]['country']}}</td>
+                        <td>{{newcursor[i]['city']}}</td>
+                        <td>{{newcursor[i]['POP']}}</td>
+                        <td>{{newcursor[i]['SID']}}</td>
+                        <td>{{newcursor[i]['BW Report (Mbps)']}}</td>
+                       </tr>
+                      {% endfor %}
+
+
+    </table>
+
+  </div>
+
+
+
+
+    <script>
+        let reportes_select = document.getElementById('reportes');
+        reportes_select.onchange = function (){
+        reportes = reportes_select.value;
+        alert(reportes)
+        }
+    </script>
+  </form>
+{% endblock %}
+
+

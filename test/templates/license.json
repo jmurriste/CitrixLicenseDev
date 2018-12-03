@@ -1,0 +1,305 @@
+/* 1 */
+{
+    "_id" : ObjectId("5bed99dedcc9fb5f4af5dee5"),
+    "License Product Name" : "VPX - NetScaler SD-WAN 10 Mbps Standard",
+    "License SKU" : "4046318",
+    "License Price" : "$43.21",
+    "Type" : "License"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("5bed99dedcc9fb5f4af5dee7"),
+    "License Product Name" : "VPX - NetScaler SD-WAN 20 Mbps Standard",
+    "License SKU" : "4047073",
+    "License Price" : "$30.26",
+    "Type" : "License"
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("5bed99dedcc9fb5f4af5dee9"),
+    "License Product Name" : "VPX - NetScaler SD-WAN 50 Mbps Standard",
+    "License SKU" : "4047078",
+    "License Price" : "$43.21",
+    "Type" : "License"
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("5bed99dedcc9fb5f4af5deeb"),
+    "License Product Name" : "VPX - NetScaler SD-WAN 100 Mbps Standard",
+    "License SKU" : "4047083",
+    "License Price" : "$113.34",
+    "Type" : "License"
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("5bed99dedcc9fb5f4af5deed"),
+    "License Product Name" : "VPX - Netscaler SD-WAN 200 Mbps Standard",
+    "License SKU" : "4057133",
+    "License Price" : "$114.45",
+    "Type" : "License"
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("5bed99dedcc9fb5f4af5deef"),
+    "License Product Name" : "VPX - Netscaler SD-WAN 500 Mbps Standard",
+    "License SKU" : "4057139",
+    "License Price" : "$341.03",
+    "Type" : "License"
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("5bed99dedcc9fb5f4af5def1"),
+    "License Product Name" : "VPX - Netscaler SD-WAN 1000 Mbps Standard",
+    "License SKU" : "4057145",
+    "License Price" : "$438.13",
+    "Type" : "License"
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("5bed99dedcc9fb5f4af5def3"),
+    "License Product Name" : "NetScaler SD-WAN 210 20 Mbps Standard",
+    "License SKU" : "4062455",
+    "License Price" : "$36.15",
+    "Type" : "License"
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("5bed99dedcc9fb5f4af5def5"),
+    "License Product Name" : "NetScaler SD-WAN 210 50 Mbps Standard",
+    "License SKU" : "4059619",
+    "License Price" : "$53.43",
+    "Type" : "License"
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("5bed99dedcc9fb5f4af5def7"),
+    "License Product Name" : "NetScaler SD-WAN 210 LTE (R1/R2) 20 Mbps Standard",
+    "License SKU" : "4062561",
+    "License Price" : "$52.36",
+    "Type" : "License"
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("5bed99dedcc9fb5f4af5def9"),
+    "License Product Name" : "NetScaler SD-WAN 210 LTE (R1/R2) 50 Mbps Standard",
+    "License SKU" : "4060335",
+    "License Price" : "$53.43",
+    "Type" : "License"
+}
+
+/* 12 */
+{
+    "_id" : ObjectId("5bed99dedcc9fb5f4af5defb"),
+    "License Product Name" : "NetScaler SD-WAN 410-050 Standard",
+    "License SKU" : "4055401",
+    "License Price" : "$68.98",
+    "Type" : "License"
+}
+
+/* 13 */
+{
+    "_id" : ObjectId("5bed99dedcc9fb5f4af5defd"),
+    "License Product Name" : "NetScaler SD-WAN 410-100 Standard",
+    "License SKU" : "4055408",
+    "License Price" : "$92.67",
+    "Type" : "License"
+}
+
+/* 14 */
+{
+    "_id" : ObjectId("5bed99dedcc9fb5f4af5deff"),
+    "License Product Name" : "NetScaler SD-WAN 410-200 Standard",
+    "License SKU" : "4055415",
+    "License Price" : "$189.77",
+    "Type" : "License"
+}
+
+/* 15 */
+{
+    "_id" : ObjectId("5bed99dedcc9fb5f4af5df01"),
+    "License Product Name" : "NetScaler SD-WAN 2100-200 Standard",
+    "License SKU" : "4055303",
+    "License Price" : "$324.26",
+    "Type" : "License"
+}
+
+/* 16 */
+{
+    "_id" : ObjectId("5bed99dedcc9fb5f4af5df03"),
+    "License Product Name" : "NetScaler SD-WAN 2100-300 Standard",
+    "License SKU" : "4055310",
+    "License Price" : "$321.28",
+    "Type" : "License"
+}
+
+/* 17 */
+{
+    "_id" : ObjectId("5bed99dedcc9fb5f4af5df05"),
+    "License Product Name" : "NetScaler SD-WAN 2100-500 Standard",
+    "License SKU" : "4055317",
+    "License Price" : "$429.20",
+    "Type" : "License"
+}
+
+/* 18 */
+{
+    "_id" : ObjectId("5bed99dedcc9fb5f4af5df07"),
+    "License Product Name" : "NetScaler SD-WAN 2100-1000 Standard",
+    "License SKU" : "4055324",
+    "License Price" : "$558.68",
+    "Type" : "License"
+}
+
+/* 19 */
+{
+    "_id" : ObjectId("5bed99dedcc9fb5f4af5df09"),
+    "License Product Name" : "NetScaler SD-WAN 2100-1500 Standard",
+    "License SKU" : "4055331",
+    "License Price" : "$612.66",
+    "Type" : "License"
+}
+
+/* 20 */
+{
+    "_id" : ObjectId("5bed99dedcc9fb5f4af5df0b"),
+    "License Product Name" : "NetScaler SD-WAN 4100-1000 Standard",
+    "License SKU" : "4055338",
+    "License Price" : "$1,256.42",
+    "Type" : "License"
+}
+
+/* 21 */
+{
+    "_id" : ObjectId("5bed99dedcc9fb5f4af5df0d"),
+    "License Product Name" : "NetScaler SD-WAN 4100-2000 Standard",
+    "License SKU" : "4055345",
+    "License Price" : "$819.43",
+    "Type" : "License"
+}
+
+/* 22 */
+{
+    "_id" : ObjectId("5bed99dedcc9fb5f4af5df0f"),
+    "License Product Name" : "NetScaler SD-WAN 4100-3000 Standard",
+    "License SKU" : "4055352",
+    "License Price" : "$873.39",
+    "Type" : "License"
+}
+
+/* 23 */
+{
+    "_id" : ObjectId("5bed99dedcc9fb5f4af5df11"),
+    "License Product Name" : "NetScaler SD-WAN 4100-4000 Standard",
+    "License SKU" : "4055359",
+    "License Price" : "$2,615.98",
+    "Type" : "License"
+}
+
+/* 24 */
+{
+    "_id" : ObjectId("5bed99dedcc9fb5f4af5df13"),
+    "License Product Name" : "NetScaler SD-WAN 5100-3000 Standard",
+    "License SKU" : "4055366",
+    "License Price" : "$2,274.13",
+    "Type" : "License"
+}
+
+/* 25 */
+{
+    "_id" : ObjectId("5bed99dedcc9fb5f4af5df15"),
+    "License Product Name" : "NetScaler SD-WAN 5100-4000 Standard",
+    "License SKU" : "4055373",
+    "License Price" : "$1,154.02",
+    "Type" : "License"
+}
+
+/* 26 */
+{
+    "_id" : ObjectId("5bed99dedcc9fb5f4af5df17"),
+    "License Product Name" : "NetScaler SD-WAN 5100-5000 Standard",
+    "License SKU" : "4055380",
+    "License Price" : "$1,208.00",
+    "Type" : "License"
+}
+
+/* 27 */
+{
+    "_id" : ObjectId("5bed9adfdcc9fb5f4af5df4d"),
+    "License Product Name" : "Citrix NetScaler SD-WAN 2100-0200-Standard Edition (200Mbps) Appliance",
+    "License SKU" : "N/A",
+    "License Price" : "$0.00",
+    "Type" : "Appliance"
+}
+
+/* 28 */
+{
+    "_id" : ObjectId("5bed9adfdcc9fb5f4af5df4f"),
+    "License Product Name" : "Citrix NetScaler SD-WAN 410-020-Standard Edition (20Mbps) Appliance",
+    "License SKU" : "N/A",
+    "License Price" : "$0.00",
+    "Type" : "Appliance"
+}
+
+/* 29 */
+{
+    "_id" : ObjectId("5bed9adfdcc9fb5f4af5df51"),
+    "License Product Name" : "Citrix NetScaler Zero-Capacity SD-WAN 410 Z Standard Edition",
+    "License SKU" : "N/A",
+    "License Price" : "$0.00",
+    "Type" : "Appliance"
+}
+
+/* 30 */
+{
+    "_id" : ObjectId("5bed9adfdcc9fb5f4af5df53"),
+    "License Product Name" : "Citrix NetScaler Zero-Capacity SD-WAN 210 Z LTE R1 Standard Edition",
+    "License SKU" : "N/A",
+    "License Price" : "$0.00",
+    "Type" : "Appliance"
+}
+
+/* 31 */
+{
+    "_id" : ObjectId("5bed9adfdcc9fb5f4af5df55"),
+    "License Product Name" : "Citrix NetScaler Zero-Capacity SD-WAN 210 Z LTE R2 Standard Edition",
+    "License SKU" : "N/A",
+    "License Price" : "$0.00",
+    "Type" : "Appliance"
+}
+
+/* 32 */
+{
+    "_id" : ObjectId("5bed9adfdcc9fb5f4af5df57"),
+    "License Product Name" : "Citrix NetScaler Zero-Capacity SD-WAN 210 Z  Standard Edition",
+    "License SKU" : "N/A",
+    "License Price" : "$0.00",
+    "Type" : "Appliance"
+}
+
+/* 33 */
+{
+    "_id" : ObjectId("5bed9adfdcc9fb5f4af5df59"),
+    "License Product Name" : "Citrix NetScaler Zero-Capacity SD-WAN 2100 Z Standard Edition",
+    "License SKU" : "N/A",
+    "License Price" : "$0.00",
+    "Type" : "Appliance"
+}
+
+/* 34 */
+{
+    "_id" : ObjectId("5bed9adfdcc9fb5f4af5df5b"),
+    "License Product Name" : "Virtual Appliance VPX",
+    "License SKU" : "N/A",
+    "License Price" : "$0.00",
+    "Type" : "Appliance"
+}

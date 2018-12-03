@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="jumbotron">
+  <h1>Download Report</h1>
+</div>
+
+  <div class="jumbotron">
+
+
+  <form method="POST">
+      {# This hidden_tag is a CSRF security feature. #}
+     {{ form.reportes.label }}   {{ form.reportes }}   {{ form.submit() }}
+  </form>
+</div>
+    <script>
+        let reportes_select = document.getElementById('reportes');
+        reportes_select.onchange = function (){
+        reportes = reportes_select.value;
+        alert(reportes)
+        }
+    </script>
+
+{% endblock %}
