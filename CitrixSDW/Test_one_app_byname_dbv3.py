@@ -42,7 +42,7 @@ def get_inventory(mcn_psw_querystring, mcn_passwordListID, customers_psw_queryst
 
 
     for i in password_list:
-        if 'center' not in i['Title'].lower():  # Avoids to add SD-WAN Center to the inventory
+        if 'center' not in i['Title'].lower() and i['Title'] == 'ARGBUELVL1SDWAN1':  # Avoids to add SD-WAN Center to the inventory
             equipment = {}
             equipment['name'] = i['Title']
             equipment['username'] = i['UserName']
@@ -57,9 +57,9 @@ def get_inventory(mcn_psw_querystring, mcn_passwordListID, customers_psw_queryst
             equipment['POP'] = i['GenericField3']
             equipment['SID'] = i['GenericField4']
             equipment['bwreport'] = i['GenericField5']
-            '''
-            pprint(equipment)
-            '''
+
+            #pprint(equipment)
+
             equipment_list.append(equipment)
 
     return equipment_list
@@ -103,12 +103,33 @@ def license_info(mcn_session, ip, mcn_name):
 
     response = mcn_session.get(url, headers=headers, verify=False)
     data = json.loads(response.content.decode('UTF-8'))
+
+
+    #pprint(data)
+
     equipment_data['license_type'] = data['license_info']['license_type']
+
+    #pprint(equipment_data['license_type'])
+
     equipment_data['local_license_server_hostid'] = data['license_info']['local_license_server_hostid']
+
+    #pprint(equipment_data['local_license_server_hostid'])
+
     equipment_data['license_expiry'] = data['license_info']['license_expiry']
+
+    #pprint(equipment_data['license_expiry'])
+
     equipment_data['max_bw'] = data['license_info']['max_bw']
+
+    #pprint(equipment_data['max_bw'])
+
     equipment_data['model'] = data['license_info']['model']
+
+    #pprint(equipment_data['model'])
+
     equipment_data['state'] = data['license_info']['state']
+
+    #pprint(equipment_data['state'])
 
     try:
         pt = data['license_info']['system_platform']
@@ -117,6 +138,10 @@ def license_info(mcn_session, ip, mcn_name):
         pass
 
     equipment_data['system_patform'] = pt
+
+    #pprint(equipment_data['system_patform'])
+
+
 
     return equipment_data
 
@@ -138,9 +163,10 @@ def system_info(mcn_session, ip, mcn_name, mcn_Description, mcn_Country, mcn_Cit
     logger.info('Getting system info from %s', mcn_name)
     response = mcn_session.get(url, headers=headers, verify=False)
     data = json.loads(response.content.decode('UTF-8'))
-    '''
+
+
     pprint(data)
-    '''
+
 
     equipment_data['name'] = mcn_name
     equipment_data['license_state'] = data['system_options']['license_state']
@@ -154,6 +180,8 @@ def system_info(mcn_session, ip, mcn_name, mcn_Description, mcn_Country, mcn_Cit
     equipment_data['POP'] = mcn_POP
     equipment_data['SID'] = mcn_SID
     equipment_data['BW Report (Mbps)'] = mcn_bwreport
+
+
     return equipment_data
 
 
